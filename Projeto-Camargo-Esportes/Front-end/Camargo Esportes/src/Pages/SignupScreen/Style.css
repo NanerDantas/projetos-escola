@@ -1,0 +1,12 @@
+.box-form input {
+    border: 2px solid rgba(128, 128, 128, 0.377);
+    background-color: white;
+    padding: 8px;
+    border-radius: 6px;
+    outline: none; /* Remove a borda padrão ao focar */
+    transition: border-color 0.3s ease; /* Animação suave */
+  }
+
+.box-form input:focus {
+    border-color: #06aa48; /* Altere para a cor desejada */
+  }
